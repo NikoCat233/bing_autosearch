@@ -218,7 +218,7 @@
 
                 if (!searches.includes(term)) {
                     let index = searches.length + 1;
-                    let url = `https://www.bing.com/search?q=${encodeURIComponent(term.toLowerCase())}&FORM=${BING_AUTOSEARCH.search.engine.form.random()}`;                
+                    let url = `https://cn.bing.com/search?q=${encodeURIComponent(term.toLowerCase())}&FORM=${BING_AUTOSEARCH.search.engine.form.random()}`;                
                     let delay = BING_AUTOSEARCH.search.interval * searches.length;
 
                     if (BING_AUTOSEARCH.search.interval === 9999 && searches.length > 0)
